@@ -1,0 +1,60 @@
+@import "../global";
+
+
+.hero__section {
+    padding: 5rem 0;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .hero__info {
+            width: 50%;
+            color: #fff;
+            .hero__title {
+                font-size: 3.5rem;
+            }
+            p {
+                font-size: 1.1rem;
+                margin: 1rem 0 2rem 0;
+                line-height: 1.4;
+            }
+            .btn {
+                @include btn
+            }
+        }
+
+        .hero__img {
+            width:50%;
+            height: 500px;
+            background: $imgColor;
+        }
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .hero__section {
+        .container {
+            flex-direction: column;
+            gap: 4rem;
+            .hero__info {
+                width: 100%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 2rem;
+                .btn {
+                    width: fit-content;
+                    padding: 1.5rem 2rem;
+                    font-size: 1.5rem;
+                }
+            }
+            .hero__img {
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+}
