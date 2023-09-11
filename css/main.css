@@ -102,6 +102,7 @@ section {
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  justify-content: center;
   background: #ffe492;
   color: #212529;
 }
@@ -121,11 +122,17 @@ section {
 .header .header__nav .exit__btn {
   display: none;
 }
+.header .header__nav .buttons-menuIcon {
+  display: none;
+}
+.header .header__nav .buttons {
+  display: none;
+}
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1200px) {
   .header {
     background-position: 20% 30%;
-    background-size: 1000px 400px;
+    background-size: 2000px 400px;
   }
   .header .header__nav .nav__list {
     position: absolute;
@@ -160,6 +167,7 @@ section {
     font-size: 1.2rem;
   }
   .header .header__nav .nav__list .buttons {
+    display: none;
     flex-direction: column;
     width: 100%;
   }
@@ -181,8 +189,54 @@ section {
   }
   .header .header__nav .menu__icon {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fff;
+  }
+  .header .header__nav .buttons-menuIcon {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .header .header__nav .buttons-menuIcon .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  .header .header__nav .buttons-menuIcon .buttons .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background: #4f9cf9;
+    border-radius: 0.4rem;
+    border: none;
+    color: #fff;
+    white-space: nowrap;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background: #ffe492;
+  }
+  .header .header__nav .buttons-menuIcon .buttons .btn i {
+    font-size: 0.8rem;
+  }
+  .header .header__nav .buttons-menuIcon .buttons .blue__btn {
+    background: #4f9cf9;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 840px) {
+  .header {
+    background-position: 20% 30%;
+    background-size: 1000px 400px;
+  }
+  .header .header__nav .nav__list {
+    width: 50%;
+  }
+  .header .header__nav .nav__list .buttons {
+    display: flex;
+  }
+  .header .header__nav .buttons-menuIcon .buttons {
+    display: none;
   }
 }
 @media screen and (max-width: 430px) {
@@ -213,12 +267,13 @@ section {
 }
 
 .hero__section {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 .hero__section .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
 }
 .hero__section .container .hero__info {
   width: 50%;
@@ -243,6 +298,7 @@ section {
   display: flex;
   gap: 0.5rem;
   align-items: center;
+  justify-content: center;
 }
 .hero__section .container .hero__info .btn i {
   font-size: 0.8rem;
