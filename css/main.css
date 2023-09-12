@@ -556,6 +556,141 @@ section {
   padding: 4rem 8%;
 }
 
+.use {
+  background-color: #043873;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  padding: 140px 32px;
+  align-items: center;
+  gap: 98px;
+  gap: 50px;
+}
+.card__box1 {
+  display: flex;
+  width: 552px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.card__box2 {
+  width: 686px;
+  height: 479px;
+  background-color: #c4defd;
+}
+
+.title {
+  color: #fff;
+  /* Header/H1 */
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  z-index: 1;
+}
+
+.text {
+  color: #fff;
+  /* Paragraph/P2/Regular */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+}
+
+.btn {
+  color: white;
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4f9cf9;
+}
+
+.box1-img {
+  position: relative;
+  left: 1px;
+  bottom: 115px;
+}
+
+@media screen and (max-width: 840px) {
+  .use {
+    width: 100%;
+    padding: 1rem 5%;
+  }
+  .use .card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .use .card .card__box1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .use .card .card__box2 {
+    width: 100%;
+  }
+}
+.custom {
+  padding: 0;
+}
+
+.titl {
+  color: black;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  z-index: 1;
+}
+
+.tex {
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+}
+
+.box2-img {
+  position: relative;
+  left: 1px;
+  bottom: 160px;
+}
+
+@media screen and (max-width: 430px) {
+  .custom {
+    width: 100%;
+  }
+  .custom .card {
+    flex-direction: column;
+  }
+  .custom .card .card__box2 {
+    width: 100%;
+  }
+  .custom .card .card__box1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 * {
   padding: 0;
   margin: 0;
