@@ -4,12 +4,363 @@
 
 // A.Rustam
 // Choose Your Plan
+.section__choose-your-plan{
+    width: 100%;
+    .seciton__choose-your-plan-title{
+        width: 100%;
+        position: relative;
+        h2{
+            text-align: center;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -1.44px;
+            color: $textColor;
+        }
+        img{
+            width: 334px;
+            position: absolute;
+            left: 50%;
+            bottom: 83px;
+            z-index: -1;
+        }
+        p{
+            margin-top: 24px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: -0.36px;
+        }
+    }
+    .section__choose-your-plan-fee{
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .free{
+            border: 1px solid #FFE492;
+            border-radius: 10px;
+            width: 400px;
+            height: 744px;
+            padding: 40px 44px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            b{
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+            }
+            h3{
+                font-size: 34px;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.72px;
+            }
 
 
+            span{
+                display: flex;
+                gap: 19px;
+                margin-top: 28px;
+            }
+            .free-btn{
+                margin-top: 25px;
+                width: 166px;
+                height: 55px;
+                border-color: #FFE492;
+                border-style: solid;
+                border-radius: 8px;
+                background: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
 
+        .personal{
+            width: 450px;
+            height: 800px;
+            background: #043873;
+            border-radius: 10px;
+            padding: 70px 44px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            b{
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+                color: #fff;
+            }
+
+            p{
+                color: #fff;
+            }
+
+            h3{
+                font-size: 34px;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.72px;
+                color: #FFE492;
+            }
+            span{
+                display: flex;
+                gap: 19px;
+                margin-top: 28px;
+                p{
+                    color: #fff;
+                }
+            }
+            .personal-btn{
+                margin-top: 25px;
+                width: 166px;
+                height: 55px;
+                border-radius: 8px;
+                background: #4F9CF9;
+                color: #fff;
+                border: none;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+        }
+
+        .organization{
+            border: 1px solid #FFE492;
+            border-radius: 10px;
+            width: 400px;
+            height: 744px;
+            padding: 40px 44px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            b{
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+            }
+            h3{
+                font-size: 34px;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.72px;
+            }
+
+
+            span{
+                display: flex;
+                gap: 19px;
+                margin-top: 28px;
+            }
+            .free-btn{
+                margin-top: 25px;
+                width: 166px;
+                height: 55px;
+                border-color: #FFE492;
+                border-style: solid;
+                border-radius: 8px;
+                background: #fff;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1152px) {
+    .section__choose-your-plan{
+        width: 100%;
+        height: 100%;
+        .seciton__choose-your-plan-title{
+            width: 100%;
+            
+        }
+        .section__choose-your-plan-fee{
+            width: 100%;
+            height: 100%;
+            .section-fee{
+                width: 100%;
+                height: 850px;
+                
+            }
+        }
+    }
+
+    .section__your-work{
+        width: 100%;
+        background-image: none;
+        .section__your-work-title{
+            width: 100%;
+            
+        }        
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .section__choose-your-plan{
+        width: 100%;
+        height: 100%;
+
+        .seciton__choose-your-plan-title{
+            h2{
+                font-size: 54px;
+            }
+            img{
+                width: 232px;
+                bottom: 113px;
+            }
+        }
+
+
+        .section__choose-your-plan-fee{
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            .section-fee{
+                margin: 0 auto;
+                width: 400px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .free{
+                display: none;
+            }
+            .organization{
+                display: none;
+            }
+            
+        }
+    }
+    .section__your-work{
+        position: relative;
+        width: 100%;
+        img{
+            position: absolute;
+            bottom: 32px;
+
+
+        }
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .section__choose-your-plan{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        .seciton__choose-your-plan-title{
+            h2{
+                font-size: 32px;
+            }
+
+            img{
+                width: 150px;
+                bottom: 177px;
+            }
+
+            p{
+                font-size: 18px;
+            }
+        }
+        .section__choose-your-plan-fee{
+            width: 100%;
+            height: 100%;
+            .section-fee{
+                width: 300px;
+                height: 100%;
+            }
+        }
+
+        
+    }
+    .section__your-work{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .section__your-work-title{
+            font-size: 36px;
+        }
+        img{
+            width: 100%;
+            position: absolute;
+            right: 20%;
+            display: none;
+        }
+    }
+
+}
 
 
 
 
 
 // Your work, everywhere you are
+
+.section__your-work{
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 574px;
+    border: 1px solid;
+    background-color: #043873;
+    background-image: url(../../images/Groupline.svg);
+    background-repeat: no-repeat;
+    background-position: 0px -150px;
+    position: relative;
+    
+
+    .section__your-work-title{
+        color: #fff;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.44px;
+        text-align: center;
+        margin-bottom: 24px;
+        
+    }
+
+    img{
+        position: absolute;
+        left: 65%;
+        bottom: 346px;
+        
+    }
+
+
+    p{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.36px;
+        text-align: center;
+    }
+    .your-work-btn{
+        margin-top: 60px;
+        border-radius: 8px;
+        background: #4F9CF9;
+        padding: 20px 40px;
+        border-style: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
