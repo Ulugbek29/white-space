@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -16,10 +25,6 @@ header {
   height: 100%;
 }
 
-section {
-  padding: 4rem 8%;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -36,10 +41,6 @@ section {
 
 header {
   height: 100%;
-}
-
-section {
-  padding: 4rem 8%;
 }
 
 .header {
@@ -208,13 +209,6 @@ header {
   height: 100%;
 }
 
-section {
-  padding: 4rem 8%;
-}
-
-.hero__section {
-  padding: 5rem 0;
-}
 .hero__section .container {
   display: flex;
   align-items: center;
@@ -295,8 +289,137 @@ header {
   height: 100%;
 }
 
-section {
-  padding: 4rem 8%;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+}
+
+header {
+  height: 100%;
+}
+
+.use {
+  background-color: #043873;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 140px 32px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 98px;
+  gap: 50px;
+}
+.card__box1 {
+  display: flex;
+  width: calc(50% - 50px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  min-width: 400px;
+  flex-grow: 1;
+}
+.card__box2 {
+  width: calc(50% - 50px);
+  height: 479px;
+  background-color: #c4defd;
+  min-width: 250px;
+  flex-grow: 1;
+}
+
+.title {
+  color: #fff;
+  /* Header/H1 */
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  z-index: 1;
+  position: relative;
+}
+
+.box1-img {
+  position: absolute;
+  left: 1px;
+  bottom: -5px;
+}
+@media (max-width: 863px) and (min-width: 744px) {
+  .box1-img {
+    left: 45% !important;
+  }
+}
+
+.text {
+  color: #fff;
+  /* Paragraph/P2/Regular */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+  margin-top: 2rem;
+}
+
+.btn {
+  color: white;
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4f9cf9;
+}
+
+.custom {
+  padding: 0;
+}
+
+.titl {
+  color: black;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  z-index: 2;
+  position: relative;
+}
+
+.box2-img {
+  position: absolute;
+  z-index: -2;
+  bottom: 15px;
+  right: 50px !important;
+}
+@media (max-width: 863px) and (min-width: 590px) {
+  .box2-img {
+    right: 50% !important;
+  }
+}
+
+.tex {
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
 }
 
 * {
@@ -317,8 +440,22 @@ header {
   height: 100%;
 }
 
-section {
-  padding: 4rem 8%;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+}
+
+header {
+  height: 100%;
 }
 
 * {
@@ -339,10 +476,6 @@ header {
   height: 100%;
 }
 
-section {
-  padding: 4rem 8%;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -359,54 +492,6 @@ section {
 
 header {
   height: 100%;
-}
-
-section {
-  padding: 4rem 8%;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  text-decoration: none;
-  list-style: none;
-}
-
-.container {
-  max-width: 1440px;
-  width: 100%;
-}
-
-header {
-  height: 100%;
-}
-
-section {
-  padding: 4rem 8%;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  text-decoration: none;
-  list-style: none;
-}
-
-.container {
-  max-width: 1440px;
-  width: 100%;
-}
-
-header {
-  height: 100%;
-}
-
-section {
-  padding: 4rem 8%;
 }
 
 /*# sourceMappingURL=main.css.map */

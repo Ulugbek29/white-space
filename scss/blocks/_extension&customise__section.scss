@@ -1,10 +1,119 @@
 @import "../global";
 
-
 // Otabek
 // Use as Extension
+.use {
+    background-color: #043873;
+    padding: 0;
+}
 
+.card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 140px 32px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 98px;
+    gap: 50px;
+    &__box1 {
+        display: flex;
+        width: calc(100% / 2 - 50px);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        min-width: 400px;
+        flex-grow: 1;
+    }
+
+    &__box2 {
+        width: calc(100% / 2 - 50px);
+        height: 479px;
+        background-color: #c4defd;
+        min-width: 250px;
+        flex-grow: 1;
+    }
+}
+
+.title {
+    color: #fff;
+
+    /* Header/H1 */
+    // font-family: Inter;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.44px;
+    z-index:1;
+    position: relative;
+}
+.box1-img {
+    position: absolute;
+    left: 1px;
+    // bottom: 175px !important;
+    bottom: -5px;
+    @media (max-width: 863px) and (min-width: 744px) {
+        left: 45% !important;
+    }
+}
+.text {
+    color: #fff;
+
+    /* Paragraph/P2/Regular */
+    // font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: -0.36px;
+    margin-top: 2rem;
+    
+}
+.btn {
+    color: white;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #4f9cf9;
+}
 
 
 
 // Customise it to your needs
+
+.custom{
+    padding: 0;
+}
+.titl {
+    color: black;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.44px;
+    z-index: 2;
+    position: relative;
+}
+.box2-img {
+    position: absolute;
+    z-index: -2;
+    bottom: 15px;
+    right: 50px !important;
+    @media (max-width: 863px) and (min-width: 590px){
+        right: 50% !important;
+    }
+}
+.tex {
+    color: black;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: -0.36px;
+}
